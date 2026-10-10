@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Test and lint caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment variables and secrets
+.env
+
+# Generated simulation outputs
+outputs/
+
+# Generated or downloaded datasets
+data/raw/
+data/processed/
+data/generated/

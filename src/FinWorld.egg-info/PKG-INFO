@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: FinWorld
+Version: 0.1.0
+Summary: A configurable financial-world simulation engine
+Requires-Python: <3.15,>=3.14
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"

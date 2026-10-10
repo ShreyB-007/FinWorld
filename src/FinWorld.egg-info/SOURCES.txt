@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/FinWorld.egg-info/PKG-INFO
+src/FinWorld.egg-info/SOURCES.txt
+src/FinWorld.egg-info/dependency_links.txt
+src/FinWorld.egg-info/requires.txt
+src/FinWorld.egg-info/top_level.txt
+src/finworld/__init__.py
+test/test_smoke.py
