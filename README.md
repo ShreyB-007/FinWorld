@@ -1,22 +1,28 @@
-# FinWorld Sim
+# FinWorld
 
-A configurable financial-world simulation engine focused
-initially on a simplified Indian financial environment.
+A configurable financial-world simulation engine.
 
-## Purpose
+## Setup
 
-FinWorld Sim aims to generate synthetic financial agents,
-events and transactions for reproducible simulation and
-experimentation.
+**Prerequisites:** Git and Python 3.14.x.
 
-## Current Status
+```powershell
+git clone <repository-url>
+cd FinWorld
+py -3.14 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -e ".[dev]"
+```
 
-Early design and development.
+## Verify Setup
 
-## Architecture
+```powershell
+python -m pytest
+python -m ruff check .
+```
 
-See [the V1 schema](docs/design/finworld-v1.png).
+## Contributing
 
-## Project Documentation
+Create a feature branch, commit and push your changes, then open a pull request to `master`.
 
-See the `docs/` directory.
+**Note:** Do not commit `.venv/`.
